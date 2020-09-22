@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styleberaka.css">
 
+    <link rel="icon" type="image/png" href="./images/berakalogo.png">
     <title>Hola mundo!</title>
 
   </head>
@@ -20,30 +21,88 @@
       <p class="lead">La moda al mejor precio</p>
       </div>
       <div class="sticky-top">
-        <nav class="navbar navbar-expand-sm navbar-dark beraka-primary-color">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-sm navbar-dark beraka-primary-color mb-5">
+            <a class="navbar-brand" href="#"> <img src="./images/berakalogo.png" width="40px" height="40px"> Navbar</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation"></button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdowncategory" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdowncategory">
+                            <a class="dropdown-item" href="#">Vestidos de diseñador</a>
+                            <a class="dropdown-item" href="#">Nuevo</a>
+                            <a class="dropdown-item" href="#">Ofertas</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
       </div>
+      <div class="container-fluid">
+        <div id="carouselB" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselB" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselB" data-slide-to="1"></li>
+            <li data-target="#carouselB" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/test1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/test2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/test3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselB" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselB" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
   </div>
+  <div class="container-fluid mt-5 ml-3">
+    <div class="row">
+       <div class="col">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eius illo, autem eligendi modi similique blanditiis error rerum repellat est nesciunt deleniti veniam unde? Magnam nihil fugiat ullam. Labore, magni.</p>
+       </div>
+       <div class="col">
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil pariatur delectus harum excepturi. Eos deleniti deserunt veritatis magni eum, soluta commodi, cupiditate repudiandae molestiae, ipsum dolorem neque voluptatem explicabo.</p>
+       </div>
+    </div>
+    
+  </div>
+
+
+    <div class="jumbotron-fluid fixed-static-bottom bg-dark text-light pb-5">
+      <div class="d-flex justify-content-center"><h1 class="display-3"> ¿Dudas sobre la tienda? </h1></div>
+      <div class="text-center"><p class="lead"> Ponte en contacto con nosotros </p></div>
+      <div class="d-flex justify-content-center"><button type="button" class="btn btn-light pr-5 pl-5"> Contactar </button></div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
